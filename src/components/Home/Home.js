@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import Todo from '../Todo/Todo';
+import User from '../User/User';
 
 const Home = () => {
 
@@ -18,7 +18,9 @@ const Home = () => {
         return (
           <div className='App'>
 
-            <Todo /> 
+            {/* <Todo />  */}
+
+            <User />
             
             {/* <h3>Count: { count } </h3>
             <button onClick={handleIncrease}>Increase</button>
